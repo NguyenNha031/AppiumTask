@@ -5,6 +5,8 @@
 
 -Báo cáo Excel: https://docs.google.com/spreadsheets/d/1ZiAo8Dl4qHdnNFdbERr9-ONKjn8gsEISghQBHoZk3jE/edit?usp=sharing
 
+-Link Slide mô tả dự án: https://www.canva.com/design/DAGupX52UzQ/LU5P-zrV6OTiGjghCI37vA/edit?utm_content=DAGupX52UzQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 **Test Case Descriptions: Đây là mô tả ngắn gọn về các test case**
 
 -LoginTests(TestLoginMultipleAccounts_FromExcel)
