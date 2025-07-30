@@ -610,3 +610,83 @@ Workload updates are available. Run `dotnet workload list` for more information.
 2025-07-30 14:47:57.0077|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
    at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
    at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 18:37:43.7292|INFO|browserstack_sdk.Program|SDK run started with id: 996dfdb9-3a0e-4909-83c4-4bf2a7c16054
+2025-07-30 18:37:43.7292|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 18:37:43.7777|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 18:37:45.7617|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 18:37:45.7617|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 18:37:45.7617|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 18:37:45.8916|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 18:37:45.9093|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 18:37:53.3706|INFO|browserstack_sdk.Program|SDK run started with id: 46befa71-0bb4-45a6-81af-697d370e88b7
+2025-07-30 18:37:53.3894|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 18:37:53.4249|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 18:37:55.2735|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 18:37:55.2735|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 18:37:55.2735|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 18:37:55.4513|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 18:37:55.4626|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 18:43:46.7743|INFO|browserstack_sdk.Program|SDK run started with id: cc8a644e-9407-4174-9f37-49ed29f6b732
+2025-07-30 18:43:46.7935|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 18:43:46.8287|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 18:43:48.7948|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 18:43:48.7948|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 18:43:48.7948|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 18:43:48.9188|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 18:43:48.9294|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 19:28:32.6525|INFO|browserstack_sdk.Program|SDK run started with id: 74c02b1f-e1b7-49fe-a831-8a90b66e1b86
+2025-07-30 19:28:32.6703|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 19:28:32.7086|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 19:28:34.4631|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 19:28:34.4631|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 19:28:34.4631|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 19:28:34.5836|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 19:28:34.6004|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 19:31:48.7152|INFO|browserstack_sdk.Program|SDK run started with id: da3593b2-5144-42c3-9915-2265b50c23c1
+2025-07-30 19:31:48.7152|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 19:31:48.7556|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 19:31:50.3383|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 19:31:50.3383|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 19:31:50.3383|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 19:31:50.4490|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 19:31:50.4490|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 19:34:44.4332|INFO|browserstack_sdk.Program|SDK run started with id: fd39a4dc-332e-4095-b77a-9f708bb79627
+2025-07-30 19:34:44.4332|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 19:34:44.4745|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 19:34:45.9981|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 19:34:45.9981|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 19:34:45.9981|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 19:34:46.1119|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 19:34:46.1223|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 19:38:02.9633|INFO|browserstack_sdk.Program|SDK run started with id: 034d680e-fd60-457a-96c0-8936d6b6372c
+2025-07-30 19:38:02.9802|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 19:38:03.0161|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 19:38:04.5568|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 19:38:04.5568|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 19:38:04.5568|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 19:38:04.7031|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 19:38:04.7159|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-30 19:39:31.6667|INFO|browserstack_sdk.Program|SDK run started with id: 84de2a82-b917-4c14-b796-a95ca189855b
+2025-07-30 19:39:31.6859|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-30 19:39:31.7192|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-30 19:39:33.4676|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-30 19:39:33.4676|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-30 19:39:33.4676|INFO|browserstack_sdk.Program|Running for f/w vanila none
+2025-07-30 19:39:33.6067|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-30 19:39:33.6186|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659

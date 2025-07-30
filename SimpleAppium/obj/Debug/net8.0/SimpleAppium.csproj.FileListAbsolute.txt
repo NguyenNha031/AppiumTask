@@ -1,0 +1,6 @@
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.csproj.AssemblyReference.cache
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.AssemblyInfoInputs.cache
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.AssemblyInfo.cs
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.csproj.CoreCompileInputs.cache
+D:\TestAppium\SimpleAppium\obj\Debug\net8.0\SimpleAppium.sourcelink.json

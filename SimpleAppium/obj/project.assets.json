@@ -3105,11 +3105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestAppium\\SimpleAppium\\SimpleAppium.csproj",
+      "projectUniqueName": "D:\\ProjectAppium\\AppiumTask-main\\SimpleAppium\\SimpleAppium.csproj",
       "projectName": "SimpleAppium",
-      "projectPath": "D:\\TestAppium\\SimpleAppium\\SimpleAppium.csproj",
+      "projectPath": "D:\\ProjectAppium\\AppiumTask-main\\SimpleAppium\\SimpleAppium.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\TestAppium\\SimpleAppium\\obj\\",
+      "outputPath": "D:\\ProjectAppium\\AppiumTask-main\\SimpleAppium\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

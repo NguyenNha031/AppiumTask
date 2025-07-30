@@ -1,4 +1,5 @@
-﻿using AventStack.ExtentReports;
+﻿// File: BaseTest.cs
+using AventStack.ExtentReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
@@ -12,7 +13,7 @@ namespace SimpleAppium.Common
         protected AndroidDriver driver;
         protected ExtentReports extent;
         protected ExtentTest test;
-        protected WaitHelper waitHelper; 
+        protected WaitHelper waitHelper;
 
         [TestInitialize]
         public void SetUp()
@@ -54,6 +55,7 @@ namespace SimpleAppium.Common
         {
             try
             {
+                string testStatus = TestContext.CurrentTestOutcome == UnitTestOutcome.Passed ? "Pass" : "Fail";
                 if (TestContext.CurrentTestOutcome == UnitTestOutcome.Passed)
                 {
                     test.Log(Status.Pass, "✅ Test passed");
@@ -80,6 +82,8 @@ namespace SimpleAppium.Common
                 extent.Flush();
                 driver?.Quit();
                 Console.WriteLine("Đã đóng app và lưu report");
+                string reportPath = ExtentManager.GetReportFilePath();
+                EmailHelper.SendReportViaEmail(reportPath, TestContext.TestName, TestContext.CurrentTestOutcome == UnitTestOutcome.Passed ? "Pass" : "Fail");
             }
         }
 

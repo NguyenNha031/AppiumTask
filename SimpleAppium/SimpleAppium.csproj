@@ -262,6 +262,7 @@
   <ItemGroup>
     <Compile Include="Common\BaseTest.cs" />
     <Compile Include="Drivers\DriverFactory.cs" />
+    <Compile Include="Helpers\EmailHelper.cs" />
     <Compile Include="Helpers\ExcelReader.cs" />
     <Compile Include="Helpers\ExtentManager.cs" />
     <Compile Include="Helpers\TouchHelper.cs" />

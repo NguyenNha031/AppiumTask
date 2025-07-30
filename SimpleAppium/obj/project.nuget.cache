@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bIzJ1z1I2/Q=",
+  "dgSpecHash": "ZrziPBjKNQE=",
   "success": true,
-  "projectFilePath": "D:\\TestAppium\\SimpleAppium\\SimpleAppium.csproj",
+  "projectFilePath": "D:\\ProjectAppium\\AppiumTask-main\\SimpleAppium\\SimpleAppium.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\appium.webdriver\\8.0.0\\appium.webdriver.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

@@ -10,6 +10,7 @@ namespace SimpleAppium.Helpers
     {
         private static ExtentReports extent;
         private static ExtentSparkReporter sparkReporter;
+        public static string ReportPath { get; private set; } 
 
         public static ExtentReports GetExtent()
         {
@@ -17,11 +18,11 @@ namespace SimpleAppium.Helpers
             {
                 string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "Reports");
                 Directory.CreateDirectory(reportsDir);
-                string reportPath = Path.Combine(reportsDir, $"Report_{DateTime.Now:yyyyMMdd_HHmmss}.html");
+                ReportPath = Path.Combine(reportsDir, $"Report_{DateTime.Now:yyyyMMdd_HHmmss}.html");
 
-                Console.WriteLine("📄 Report path: " + reportPath);
+                Console.WriteLine("📄 Report path: " + ReportPath);
 
-                sparkReporter = new ExtentSparkReporter(reportPath);
+                sparkReporter = new ExtentSparkReporter(ReportPath);
                 sparkReporter.Config.DocumentTitle = "Automation Test Report";
                 sparkReporter.Config.ReportName = "Test Execution Report";
 
@@ -31,6 +32,12 @@ namespace SimpleAppium.Helpers
             }
             return extent;
         }
+
+        public static string GetReportFilePath()
+        {
+            return ReportPath;
+        }
+
 
         public static string CaptureScreenshot(IWebDriver driver, string fileNamePrefix = "screenshot")
         {
