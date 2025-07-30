@@ -1,0 +1,1 @@
+SimpleAppium/SauceLabs-Demo-App.apk filter=lfs diff=lfs merge=lfs -text
