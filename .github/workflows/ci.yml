@@ -1,0 +1,15 @@
+﻿name: CI Pipeline for Appium Tests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  call-tests:
+    uses: ./.github/workflows/reusable-test.yml

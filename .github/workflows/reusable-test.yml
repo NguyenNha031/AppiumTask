@@ -1,0 +1,91 @@
+name: Reusable Test Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    env:
+      APPIUM_PORT: 4723
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          lfs: true # Bật Git LFS nếu bạn dùng để chứa file .apk
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Setup Node.js (for Appium)
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install Appium
+        run: |
+          npm install -g appium
+          appium --version
+
+      - name: Start Android Emulator and Run Dummy Command
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 30
+          target: default
+          arch: x86_64
+          emulator-options: "-no-window -no-audio -no-snapshot"
+          disable-animations: true
+          script: echo "Emulator ready"
+
+      - name: Start Appium Server
+        run: |
+          nohup appium > appium.log 2>&1 &
+          sleep 10
+          echo "Appium started"
+
+      - name: Restore dependencies
+        run: dotnet restore SimpleAppium/SimpleAppium.csproj
+
+      - name: Build
+        run: dotnet build SimpleAppium/SimpleAppium.csproj --configuration Release --no-restore
+
+      - name: Run Appium tests
+        run: dotnet test SimpleAppium/SimpleAppium.csproj --configuration Release --no-build --logger "trx" --results-directory ./TestResults
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: success() || failure()
+        with:
+          name: test-results
+          path: ./TestResults/
+
+      - name: Archive ExtentReports
+        uses: actions/upload-artifact@v4
+        if: success() || failure()
+        with:
+          name: extent-reports
+          path: ./SimpleAppium/bin/Debug/Reports/
+
+      - name: Prepare latest report for GitHub Pages
+        if: github.ref == 'refs/heads/master'
+        run: |
+          mkdir -p site
+          latest_report=$(ls -t SimpleAppium/bin/Debug/Reports/*.html | head -n 1)
+          if [ -f "$latest_report" ]; then
+            cp "$latest_report" site/index.html
+            echo "Copied latest report: $latest_report"
+          else
+            echo "No .html report found."
+            exit 1
+          fi
+
+      - name: Deploy report to GitHub Pages
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
