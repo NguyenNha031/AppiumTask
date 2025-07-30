@@ -1,0 +1,82 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+  <!-- Update cli version here -->
+    <InstallationCommand>tool install browserstack-sdk --version 1.20.0 --add-source https://api.nuget.org/v3/index.json --ignore-failed-sources</InstallationCommand>
+    <UserProfileDirectory>$([System.Environment]::GetFolderPath(System.Environment+SpecialFolder.UserProfile))</UserProfileDirectory>
+    <TrimmedIntermediateOutputPath>$([System.String]::Copy('$(IntermediateOutputPath)').TrimEnd('\'))</TrimmedIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ConditionalTempPath>$([System.IO.Path]::Combine($([System.IO.Path]::Combine($([System.IO.Path]::GetTempPath()), 'rebuild-bstack.tmp'))))</ConditionalTempPath>
+
+<!--    https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-environment-variables#dotnet_host_path-->
+    <DotnetPath Condition=" '$(DOTNET_HOST_PATH)' != '' ">"$(DOTNET_HOST_PATH)"</DotnetPath>
+    <DotnetPath Condition=" '$(DOTNET_HOST_PATH)' == '' ">dotnet</DotnetPath>
+  </PropertyGroup>
+  <PropertyGroup>
+      <BrowserStackAddPatchErrorCode>-1</BrowserStackAddPatchErrorCode>
+      <InstallationErrorCode>-1</InstallationErrorCode>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="Exists('$(ConditionalTempPath)')">
+		<DisableFastUpToDateCheck>True</DisableFastUpToDateCheck>
+	</PropertyGroup>
+
+  <Target Name="BStackTestAdapter"
+          Inputs="$(TargetPath)"
+          Outputs="$(IntermediateOutputPath)$(MSBuildProjectName).bstacktestadapter.tmp"
+          BeforeTargets="BeforeBuild">
+
+	  <Exec Command='echo "Using dotnet $(DotnetPath)"' ContinueOnError="WarnAndContinue" />
+
+    <Exec Command='$(DotnetPath) new tool-manifest' ContinueOnError="WarnAndContinue" />
+    <!-- Change to tool update, this will reduce all these 3 commands -->
+		<Exec Command='$(DotnetPath) $(InstallationCommand)' ContinueOnError="WarnAndContinue" >
+      <Output TaskParameter="ExitCode" PropertyName="InstallationErrorCode" />
+    </Exec>
+    <Exec Command='$(DotnetPath) tool uninstall browserstack-sdk' Condition="'$(InstallationErrorCode)' != '0'" ContinueOnError="WarnAndContinue"/>
+    <Exec Command='$(DotnetPath) $(InstallationCommand)' Condition="'$(InstallationErrorCode)' != '0'" ContinueOnError="WarnAndContinue"/>
+
+    <Exec
+            Command='$(DotnetPath) browserstack-sdk --add-patch-bstack &quot;$(TrimmedIntermediateOutputPath)&quot; &quot;$(TargetPath)&quot; &quot;$(Configuration)&quot;'
+            ContinueOnError="WarnAndContinue"
+            EnvironmentVariables="BROWSERSTACK_TEST_ASSEMBLY_PATH=$(TargetPath)"
+    >
+       <Output TaskParameter="ExitCode" PropertyName="BrowserStackAddPatchErrorCode" />
+    </Exec>
+    <ItemGroup Condition="'$(BrowserStackAddPatchErrorCode)' == '0'">
+        <Compile Include="$(IntermediateOutputPath)\BrowserStackPatch.cs" />
+    </ItemGroup>
+    <ItemGroup Condition="Exists('$(IntermediateOutputPath)\BrowserStackDeps.info')">
+      <Content Include="$(IntermediateOutputPath)\BrowserStackDeps.info">
+        <Link>BrowserStackDeps.info</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <ItemGroup Condition="Exists('$(IntermediateOutputPath)\browserstack.yml')">
+      <Content Include="$(IntermediateOutputPath)\browserstack.yml">
+        <Link>browserstack.yml</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <ItemGroup Condition="Exists('$(IntermediateOutputPath)\xunit.runner.json')">
+      <Content Include="$(IntermediateOutputPath)\xunit.runner.json">
+        <Link>xunit.runner.json</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    <!-- Make sure the incremental build doesn't run this target again -->
+    <Touch Files="$(IntermediateOutputPath)$(MSBuildProjectName).bstacktestadapter.tmp" AlwaysCreate="true" ForceTouch="true" />
+    <!-- Registers file for Clean -->
+    <ItemGroup>
+      <FileWrites Include="$(IntermediateOutputPath)$(MSBuildProjectName).bstacktestadapter.tmp" />
+    </ItemGroup>
+
+  </Target>
+
+  <Target Name="DeleteTestAdapter"
+          AfterTargets="AfterBuild"
+          Condition="'$(BROWSERSTACK_FROM_CLI)' == 'true'"
+  >
+    <Exec Command='$(DotnetPath) browserstack-sdk --remove-adapter $(IntermediateOutputPath) $(TargetPath)' />
+  </Target>
+</Project>

@@ -1,0 +1,1311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MartinCostello.BrowserStack.Automate</name>
+    </assembly>
+    <members>
+        <member name="T:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext">
+            <summary>
+            A class representing the <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> to use for JSON serialization. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Boolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.NullableBoolean">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.AutomatePlanStatus">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.AutomationBuild">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.AutomationSession">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.AutomationSessionDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Browser">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Build">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.BuildDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.EmptyRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Project">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ProjectDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ProjectDetailItem">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.RecycleAccessKeyResult">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Session">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.SetBuildTagRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.SetNameRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.SetSessionStatusRequest">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ICollectionBuildDetail">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ICollectionString">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ListAutomationBuild">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ListAutomationSession">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ListBrowser">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.ListProject">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.DateTime">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Int32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.NullableInt32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.Default">
+            <summary>
+            The default <see cref="T:System.Text.Json.Serialization.JsonSerializerContext"/> associated with a default <see cref="T:System.Text.Json.JsonSerializerOptions"/> instance.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.GeneratedSerializerOptions">
+            <summary>
+            The source-generated options associated with this context.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.#ctor(System.Text.Json.JsonSerializerOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.AppJsonSerializerContext.GetTypeInfo(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.AutomatePlanStatus">
+            <summary>
+            A class representing the current status of a <c>BrowserStack</c> Automate plan.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.AutomatePlan">
+            <summary>
+            Gets or sets the current plan.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.MaximumAllowedParallelSessions">
+            <summary>
+            Gets or sets the maximum allowed number of parallel sessions.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.ParallelSessionsRunning">
+            <summary>
+            Gets or sets the number of parallel sessions currently running.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.TeamMaximumAllowedParallelSessions">
+            <summary>
+            Gets or sets the maximum allowed number of parallel sessions for the team.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.QueuedParallelSessions">
+            <summary>
+            Gets or sets the number of parallel sessions currently queued.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomatePlanStatus.MaximumQueuedParallelSessions">
+            <summary>
+            Gets or sets the maximum allowed number of parallel sessions that can be queued.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.AutomationBuild">
+            <summary>
+            A class representing a BrowserStack Automate build. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomationBuild.Build">
+            <summary>
+            Gets or sets the build.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.AutomationSession">
+            <summary>
+            A class representing a BrowserStack Automate session. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomationSession.Session">
+            <summary>
+            Gets or sets the session.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.AutomationSessionDetail">
+            <summary>
+            A class representing a BrowserStack Automate session's details. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.AutomationSessionDetail.SessionDetail">
+            <summary>
+            Gets or sets the session.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.Browser">
+            <summary>
+            A class representing a browser.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.OSVersion">
+            <summary>
+            Gets or sets the Operating System version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.OSName">
+            <summary>
+            Gets or sets the Operating System name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.BrowserVersion">
+            <summary>
+            Gets or sets the browser version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.Device">
+            <summary>
+            Gets or sets the device name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.BrowserName">
+            <summary>
+            Gets or sets the browser name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Browser.RealMobile">
+            <summary>
+            Gets or sets if a mobile device is used or not.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient">
+            <summary>
+            A class representing a client for the <c>BrowserStack</c> Automate REST API.
+            </summary>
+        </member>
+        <member name="F:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient._client">
+            <summary>
+            Gets the used specified <see cref="T:System.Net.Http.HttpClient"/> to use.
+            </summary>
+        </member>
+        <member name="F:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient._ownsClient">
+            <summary>
+            Whether the instance owns the <see cref="T:System.Net.Http.HttpClient"/> instance.
+            </summary>
+        </member>
+        <member name="F:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient._disposed">
+            <summary>
+            Whether the instance has been disposed.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> class.
+            </summary>
+            <param name="userName">The user name to use to authenticate.</param>
+            <param name="accessKey">The access key to use to authenticate.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="userName"/> or <paramref name="accessKey"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.#ctor(System.String,System.String,System.Net.Http.HttpClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> class.
+            </summary>
+            <param name="userName">The user name to use to authenticate.</param>
+            <param name="accessKey">The access key to use to authenticate.</param>
+            <param name="httpClient">The <see cref="T:System.Net.Http.HttpClient"/> to use.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="userName"/> or <paramref name="accessKey"/> is <see langword="null"/> or white space.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="httpClient"/> is <see langword="null"/>.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.#ctor(System.String,System.String,System.Net.Http.HttpClient,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> class.
+            </summary>
+            <param name="userName">The user name to use to authenticate.</param>
+            <param name="accessKey">The access key to use to authenticate.</param>
+            <param name="httpClient">The <see cref="T:System.Net.Http.HttpClient"/> to use.</param>
+            <param name="ownsClient">Whether the instance owns the HTTP client.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="userName"/> or <paramref name="accessKey"/> is <see langword="null"/> or white space.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="httpClient"/> is <see langword="null"/>.
+            </exception>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.ApiBaseAddress">
+            <summary>
+            Gets the base URI of the BrowserStack Automate REST API.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.UserName">
+            <summary>
+            Gets the user name in use.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.FromCredential(System.Net.NetworkCredential)">
+            <summary>
+            Creates an instance of <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> using the specified <see cref="T:System.Net.NetworkCredential"/>.
+            </summary>
+            <param name="credential">The credential to use the authenticate.</param>
+            <returns>
+            The created instance of <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> authenticated using <paramref name="credential"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="credential"/> is <see langword="null"/>.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteBuildAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the build with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The Id of the build to delete.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to delete the build with the specified Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> is <see langword="null"/> or white space.
+            </exception>
+            <exception cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            The build could not be deleted.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteBuildsAsync(System.Collections.Generic.ICollection{System.String},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the builds with the specified Ids as an asynchronous operation.
+            </summary>
+            <param name="buildIds">The Ids of the builds to delete.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to delete the build with the specified Id.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="buildIds"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildIds"/> is empty.
+            </exception>
+            <exception cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            The builds could not be deleted.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteProjectAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the project with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="projectId">The Id of the project to delete.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to delete the project with the specified Id.
+            </returns>
+            <exception cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            The project could not be deleted.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteSessionAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the session with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="sessionId">The Id of the session to delete.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to delete the session with the specified Id.
+            </returns>
+            <exception cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            The session could not be deleted.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteSessionsAsync(System.Collections.Generic.ICollection{System.String},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the sessions with the specified Ids as an asynchronous operation.
+            </summary>
+            <param name="sessionIds">The Ids of the sessions to delete.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to delete the sessions with the specified Ids.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="sessionIds"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="sessionIds"/> is empty.
+            </exception>
+            <exception cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            The sessions could not be deleted.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetBrowsersAsync(System.Threading.CancellationToken)">
+            <summary>
+            Gets the browsers as an asynchronous operation.
+            </summary>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the browsers.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetBuildsAsync(System.Threading.CancellationToken)">
+            <summary>
+            Gets the builds as an asynchronous operation.
+            </summary>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the builds.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetBuildsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <summary>
+            Gets the builds as an asynchronous operation.
+            </summary>
+            <param name="limit">The optional number of builds to return. The default value is 10.</param>
+            <param name="offset">The optional offset for builds to return. The default value is 0.</param>
+            <param name="status">The optional status to filter builds to.</param>
+            <param name="projectId">The optional project Id to filter builds to, if any.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the builds.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetProjectAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Gets the project with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="projectId">The Id of the project to return.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the project with the specified Id.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetProjectStatusBadgeAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Gets the badge for the project with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="projectId">The Id of the project to get the status badge for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the
+            key for the status badge for the project with the specified Id.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetProjectsAsync(System.Threading.CancellationToken)">
+            <summary>
+            Gets the projects as an asynchronous operation.
+            </summary>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the projects.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session associated with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="sessionId">The session Id to return.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the session with the specified Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and
+            session with the specified Ids as a string.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionAppiumLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the raw session Appium logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session
+            with the specified Ids as a string.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionConsoleLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session console logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session
+            with the specified Ids as a string.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionNetworkLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session network logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session
+            with the specified Ids as a string in HAR (HTTP Archive) format.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionSeleniumLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session Selenium logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session
+            with the specified Ids as a string.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionTelemetryLogsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the session Selenium 4 telemetry logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session
+            with the specified Ids as a string.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionsAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the sessions associated with the specified build Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id of the sessions to return.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the sessions for the specified build Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetSessionsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the sessions associated with the specified build Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id of the sessions to return.</param>
+            <param name="limit">The optional number of sessions to return. The default value is 10.</param>
+            <param name="offset">The optional offset for sessions to return. The default value is 0.</param>
+            <param name="status">The optional status to filter sessions to.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the sessions for the specified build Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetStatusAsync(System.Threading.CancellationToken)">
+            <summary>
+            Gets the status of the <c>BrowserStack</c> Automate plan as an asynchronous operation.
+            </summary>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the status of the Automate plan.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.RecycleAccessKeyAsync(System.Threading.CancellationToken)">
+            <summary>
+            Recycles the current access key as an asynchronous operation.
+            </summary>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to recycle the access key which returns the new and old access keys.
+            </returns>
+            <remarks>
+            The credentials used by the current instance are automatically updated if successful.
+            </remarks>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetBuildTagAsync(System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets a tag of the build with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to set the tag for.</param>
+            <param name="tag">The new build tag to set.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the name for the specified build Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="tag"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetProjectNameAsync(System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the name of the project with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="projectId">The project Id to set the name of.</param>
+            <param name="name">The new name.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the name for the specified project Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="name"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetSessionNameAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the name of the session with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="sessionId">The session Id to set the name of.</param>
+            <param name="name">The new name.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the name for the specified session Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="name"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetSessionStatusAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the status of the session with the specified Id as an asynchronous operation.
+            </summary>
+            <param name="sessionId">The session Id to set the status of.</param>
+            <param name="status">The new status.</param>
+            <param name="reason">An optional reason to specify.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the status for the specified session Id.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="sessionId"/> or <paramref name="status"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.Dispose(System.Boolean)">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            <param name="disposing">
+            <see langword="true" /> to release both managed and unmanaged resources;
+            <see langword="false" /> to release only unmanaged resources.
+            </param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.AppendQuery(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32})">
+            <summary>
+            Appends the query string parameters to use, if any, for the specified parameters.
+            </summary>
+            <param name="relativeUri">The relative URI to append the query to.</param>
+            <param name="limit">The limit to use, if any.</param>
+            <param name="offset">The offset to use, if any.</param>
+            <param name="status">The status to filter to, if any.</param>
+            <param name="projectId">The project Id to filter to, if any.</param>
+            <returns>
+            The query string to use, if any.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.Escape(System.String)">
+            <summary>
+            Escapes the specified value for use in a URI.
+            </summary>
+            <param name="value">The value to escape.</param>
+            <returns>
+            The escaped value.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetAuthorization(System.Net.Http.HttpClient,System.String,System.String)">
+            <summary>
+            Sets the authorization header for the specified <see cref="T:System.Net.Http.HttpClient"/>.
+            </summary>
+            <param name="client">The HTTP client to configure.</param>
+            <param name="userName">The BrowserStack Automate user name.</param>
+            <param name="accessKey">The BrowserStack Automate access key.</param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.EnsureSuccessAsync(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)">
+            <summary>
+            Ensures that the specified <see cref="T:System.Net.Http.HttpResponseMessage"/> was successful.
+            </summary>
+            <param name="response">The HTTP response message.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation to test the response for success.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetLogsAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the specified type of logs associated with the specified build and session Id as an asynchronous operation.
+            </summary>
+            <param name="buildId">The build Id to return the logs for.</param>
+            <param name="sessionId">The session Id to return the logs for.</param>
+            <param name="logType">The log type to retrieve.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to get the logs for the build and session with the specified Ids.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="buildId"/> or <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.DeleteAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified resource as an asynchronous operation.
+            </summary>
+            <param name="relativeUri">The relative URI of the resource to delete.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to delete the specified resource.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.GetJsonAsync``1(System.String,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Threading.CancellationToken)">
+            <summary>
+            Gets the specified resource as an asynchronous operation.
+            </summary>
+            <typeparam name="T">The type of the JSON response.</typeparam>
+            <param name="relativeUri">The relative URI of the resource to delete.</param>
+            <param name="jsonTypeInfo">The JSON type information to use.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to delete the specified resource.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.PutJsonAsync``2(System.String,``0,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Text.Json.Serialization.Metadata.JsonTypeInfo{``1},System.Threading.CancellationToken)">
+            <summary>
+            Sets the name of the session with the specified Id as an asynchronous operation.
+            </summary>
+            <typeparam name="TRequest">The type of the request.</typeparam>
+            <typeparam name="TResponse">The type of the response.</typeparam>
+            <param name="relativeUri">The relative URI of the resource to set the name of.</param>
+            <param name="request">The request body.</param>
+            <param name="requestJsonTypeInfo">The JSON type information to use for the request.</param>
+            <param name="responseJsonTypeInfo">The JSON type information to use for the response.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the name for the specified resource.
+            </returns>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient.SetNameAsync``1(System.String,System.String,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Threading.CancellationToken)">
+            <summary>
+            Sets the name of the session with the specified Id as an asynchronous operation.
+            </summary>
+            <typeparam name="T">The type of the resource.</typeparam>
+            <param name="relativeUri">The relative URI of the resource to set the name of.</param>
+            <param name="name">The new name.</param>
+            <param name="jsonTypeInfo">The JSON type information to use.</param>
+            <param name="cancellationToken">The cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the name for the specified resource.
+            </returns>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClientExtensions">
+            <summary>
+            A class containing extension methods for the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient"/> class. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClientExtensions.SetSessionCompletedAsync(MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the status of the session with the specified Id as having completed as an asynchronous operation.
+            </summary>
+            <param name="client">The <c>BrowserStack</c> Automate client.</param>
+            <param name="sessionId">The session Id to set the status of.</param>
+            <param name="reason">An optional reason to specify.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the status of the session with the specified Id as having completed.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="client"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateClientExtensions.SetSessionErrorAsync(MartinCostello.BrowserStack.Automate.BrowserStackAutomateClient,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Sets the status of the session with the specified Id as having an error as an asynchronous operation.
+            </summary>
+            <param name="client">The <c>BrowserStack</c> Automate client.</param>
+            <param name="sessionId">The session Id to set the status of.</param>
+            <param name="reason">An optional reason to specify.</param>
+            <param name="cancellationToken">The optional cancellation token to use.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation to set the status of the session with the specified Id as having an error.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="client"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="sessionId"/> is <see langword="null"/> or white space.
+            </exception>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateError">
+            <summary>
+            A class representing a BrowserStack Automate error.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BrowserStackAutomateError.Status">
+            <summary>
+            Gets or sets the error status.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BrowserStackAutomateError.Message">
+            <summary>
+            Gets or sets the error message.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException">
+            <summary>
+            Represents an error from the BrowserStack Automate API.
+            </summary>
+        </member>
+        <member name="F:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.DefaultMessage">
+            <summary>
+            The default error message.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class.
+            </summary>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class with a specified error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor(MartinCostello.BrowserStack.Automate.BrowserStackAutomateError)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class with a specified error message.
+            </summary>
+            <param name="errorDetail">The error detail, if any.</param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor(System.String,MartinCostello.BrowserStack.Automate.BrowserStackAutomateError)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class with a specified error message and error detail.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+            <param name="errorDetail">The error detail, if any.</param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class with a specified
+            error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">
+            The exception that is the cause of the current exception, or <see langword="null"/> if no inner exception is specified.
+            </param>
+        </member>
+        <member name="M:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.#ctor(System.String,MartinCostello.BrowserStack.Automate.BrowserStackAutomateError,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException"/> class with a specified error message and error detail.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+            <param name="errorDetail">The error detail, if any.</param>
+            <param name="innerException">
+            The exception that is the cause of the current exception, or <see langword="null"/> if no inner exception is specified.
+            </param>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BrowserStackAutomateException.ErrorDetail">
+            <summary>
+            Gets the error detail, if any, associated with the exception.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.Build">
+            <summary>
+            A class representing a build.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.HashedId">
+            <summary>
+            Gets or sets the hashed Id of the build.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.Name">
+            <summary>
+            Gets or sets the name of the build.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.Duration">
+            <summary>
+            Gets or sets the duration of the build, in seconds.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.Status">
+            <summary>
+            Gets or sets the status of the build.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.PublicUrl">
+            <summary>
+            Gets or sets the public URL of the build, if any.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Build.BuildTag">
+            <summary>
+            Gets or sets the build tag of the build, if any.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BuildDetail">
+            <summary>
+            A class representing detail about a build.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.CreatedAt">
+            <summary>
+            Gets or sets the date and time the build was created.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.UpdatedAt">
+            <summary>
+            Gets or sets the date and time the build was updated.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.GroupId">
+            <summary>
+            Gets or sets the group Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.Id">
+            <summary>
+            Gets or sets the build Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.IsDelta">
+            <summary>
+            Gets or sets a value indicating whether this is a delta.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.Tags">
+            <summary>
+            Gets or sets the tags.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.ProjectId">
+            <summary>
+            Gets or sets the project Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildDetail.UserId">
+            <summary>
+            Gets or sets the user Id.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.BuildStatuses">
+            <summary>
+            A class containing the names of the build statuses. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildStatuses.Done">
+            <summary>
+            Gets the name of the status for a job which is done.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildStatuses.Failed">
+            <summary>
+            Gets the name of the status for a job which has failed.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.BuildStatuses.Running">
+            <summary>
+            Gets the name of the status for a job which is running.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.EmptyRequest">
+            <summary>
+            A class representing an empty request. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.IBrowserInfo">
+            <summary>
+            Defines information about a browser.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.IBrowserInfo.OSVersion">
+            <summary>
+            Gets the Operating System version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.IBrowserInfo.OSName">
+            <summary>
+            Gets the Operating System name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.IBrowserInfo.BrowserVersion">
+            <summary>
+            Gets the browser version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.IBrowserInfo.Device">
+            <summary>
+            Gets the device name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.IBrowserInfo.BrowserName">
+            <summary>
+            Gets the browser name.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.Project">
+            <summary>
+            A class representing a project.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.Id">
+            <summary>
+            Gets or sets the project Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.UpdatedAt">
+            <summary>
+            Gets or sets the date and time the project was last updated.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.Name">
+            <summary>
+            Gets or sets the name of the project.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.CreatedAt">
+            <summary>
+            Gets or sets the date and time the project was created.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.UserId">
+            <summary>
+            Gets or sets the user Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.GroupId">
+            <summary>
+            Gets or sets the group Id.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Project.SubGroupId">
+            <summary>
+            Gets or sets the sub-group Id.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.ProjectDetail">
+            <summary>
+            A class representing detailed information about a project.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.ProjectDetail.Builds">
+            <summary>
+            Gets or sets the build details.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.ProjectDetailItem">
+            <summary>
+            A class representing a project detail item.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.ProjectDetailItem.Project">
+            <summary>
+            Gets or sets the project detail.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.RecycleAccessKeyResult">
+            <summary>
+            A class representing the result of recycling the access key.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.RecycleAccessKeyResult.NewKey">
+            <summary>
+            Gets or sets the new access key.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.RecycleAccessKeyResult.OldKey">
+            <summary>
+            Gets or sets the old access key.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.Session">
+            <summary>
+            A class representing a session.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.Reason">
+            <summary>
+            Gets or sets the reason.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.HashedId">
+            <summary>
+            Gets or sets the hashed Id of the session.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.Duration">
+            <summary>
+            Gets or sets the duration of the session in seconds.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.Device">
+            <summary>
+            Gets or sets the device.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.BrowserVersion">
+            <summary>
+            Gets or sets the browser version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.OSVersion">
+            <summary>
+            Gets or sets the OS version.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.Name">
+            <summary>
+            Gets or sets the session name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.OSName">
+            <summary>
+            Gets or sets the Operating System name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.ProjectName">
+            <summary>
+            Gets or sets the project name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.Status">
+            <summary>
+            Gets or sets the session status.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.BuildName">
+            <summary>
+            Gets or sets the build name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.LogsUri">
+            <summary>
+            Gets or sets the URI of the logs.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.BrowserName">
+            <summary>
+            Gets or sets the browser name.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.BrowserUrl">
+            <summary>
+            Gets or sets the browser URL.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.PublicUrl">
+            <summary>
+            Gets or sets the public URL.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.AppiumLogsUrl">
+            <summary>
+            Gets or sets the Appium logs URL.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.VideoUrl">
+            <summary>
+            Gets or sets the video URL.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.BrowserConsoleLogsUrl">
+            <summary>
+            Gets or sets the URL to view the browser's console logs.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.HarLogsUrl">
+            <summary>
+            Gets or sets the URL to view the browser's HAR logs.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.SeleniumLogsUrl">
+            <summary>
+            Gets or sets the URL to view the Selenium logs.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.Session.SeleniumTelemetryLogsUrl">
+            <summary>
+            Gets or sets the URL to view the Selenium 4 telemetry logs, if enabled.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.SessionStatuses">
+            <summary>
+            A class containing the names of the session statuses. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SessionStatuses.Completed">
+            <summary>
+            Gets the name of the status for a session which is completed.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SessionStatuses.Done">
+            <summary>
+            Gets the name of the status for a session which is done.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SessionStatuses.Error">
+            <summary>
+            Gets the name of the status for a session which has an error.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.SetBuildTagRequest">
+            <summary>
+            A class representing a request to set a build tag. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SetBuildTagRequest.BuildTag">
+            <summary>
+            Gets or sets the build tag.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.SetNameRequest">
+            <summary>
+            A class representing a request to set a name. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SetNameRequest.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+        </member>
+        <member name="T:MartinCostello.BrowserStack.Automate.SetSessionStatusRequest">
+            <summary>
+            A class representing a request to set a session's status. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SetSessionStatusRequest.Status">
+            <summary>
+            Gets or sets the status.
+            </summary>
+        </member>
+        <member name="P:MartinCostello.BrowserStack.Automate.SetSessionStatusRequest.Reason">
+            <summary>
+            Gets or sets the reason.
+            </summary>
+        </member>
+    </members>
+</doc>
