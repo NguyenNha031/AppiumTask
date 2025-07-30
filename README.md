@@ -3,6 +3,8 @@
 
 -Drive: https://drive.google.com/drive/folders/15P92TnSTOXUQOrVF9qMF9SQfROxYhBsD?usp=sharing
 
+-Báo cáo Excel: https://docs.google.com/spreadsheets/d/1ZiAo8Dl4qHdnNFdbERr9-ONKjn8gsEISghQBHoZk3jE/edit?usp=sharing
+
 **Test Case Descriptions: Đây là mô tả ngắn gọn về các test case**
 
 -LoginTests(TestLoginMultipleAccounts_FromExcel)
