@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     env:
       APPIUM_PORT: 4723
@@ -20,6 +20,10 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: "8.0.x"
+
+      - name: Install .NET Framework 4.7.2 Developer Pack (if missing)
+        run: |
+          choco install netfx-4.7.2-devpack -y
 
       - name: Setup Node.js (for Appium)
         uses: actions/setup-node@v3
@@ -62,6 +66,10 @@ jobs:
         with:
           name: test-results
           path: ./TestResults/
+
+      - name: Install .NET Framework 4.7.2 Developer Pack (if missing)
+        run: |
+          choco install netfx-4.7.2-devpack -y
 
       - name: Archive ExtentReports
         uses: actions/upload-artifact@v4
