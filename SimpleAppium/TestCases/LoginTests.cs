@@ -37,7 +37,7 @@ namespace SimpleAppium.TestCases
 
                     try
                     {
-                        loginPage.Login(email, password); 
+                        loginPage.Login(email, password);
                         Thread.Sleep(2000);
 
                         if (loginPage.IsLoginSuccessful())

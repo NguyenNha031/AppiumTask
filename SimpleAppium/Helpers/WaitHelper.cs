@@ -20,7 +20,6 @@ namespace SimpleAppium.Helpers
         {
             return wait.Until(d => d.FindElement(locator));
         }
-
         public bool WaitForElementDisplayed(By locator, int timeoutSeconds = 10)
         {
             try

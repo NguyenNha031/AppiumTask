@@ -7169,3 +7169,145 @@ Project 'SimpleAppium' has the following package references
 2025-07-30 19:39:33.6186|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
    at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
    at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-31 08:38:52.3036|INFO|browserstack_sdk.Program|SDK run started with id: d86207f7-0385-4f25-a36e-619d7e68c122
+2025-07-31 08:38:52.3206|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-31 08:38:52.3574|DEBUG|browserstack_sdk.Program|Resolving dependencies from command
+2025-07-31 08:38:52.3574|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 08:38:53.2354|DEBUG|browserstack_sdk.utils|Executing C:\Program Files\dotnet\dotnet.exe  : 0, 
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+2025-07-31 08:38:54.3100|DEBUG|browserstack_sdk.utils|Executing C:\Program Files\dotnet\dotnet.exe  : 0, 
+Project 'SimpleAppium' has the following package references
+   [net472]: 
+   Top-level Package             Requested   Resolved
+   > Appium.WebDriver            8.0.0       8.0.0   
+   > ExtentReports               5.0.4       5.0.4   
+   > Microsoft.NET.Test.Sdk      17.14.1     17.14.1 
+   > NPOI                        2.7.4       2.7.4   
+   > NUnit                       4.3.2       4.3.2   
+   > NUnit3TestAdapter           5.0.0       5.0.0   
+   > Selenium.WebDriver          4.34.0      4.34.0  
+
+   Transitive Package                                         Resolved       
+   > BouncyCastle.Cryptography                                2.4.0          
+   > Enums.NET                                                5.0.0          
+   > ExtendedNumerics.BigDecimal                              2025.1001.2.129
+   > MathNet.Numerics.Signed                                  5.0.0          
+   > Microsoft.ApplicationInsights                            2.22.0         
+   > Microsoft.AspNetCore.Html.Abstractions                   2.2.0          
+   > Microsoft.AspNetCore.Razor                               2.2.0          
+   > Microsoft.AspNetCore.Razor.Language                      2.2.0          
+   > Microsoft.AspNetCore.Razor.Runtime                       2.2.0          
+   > Microsoft.Bcl.AsyncInterfaces                            8.0.0          
+   > Microsoft.CodeAnalysis.Analyzers                         3.0.0          
+   > Microsoft.CodeAnalysis.Common                            3.9.0          
+   > Microsoft.CodeAnalysis.CSharp                            3.9.0          
+   > Microsoft.CodeCoverage                                   17.14.1        
+   > Microsoft.CSharp                                         4.7.0          
+   > Microsoft.IO.RecyclableMemoryStream                      3.0.1          
+   > Microsoft.Testing.Extensions.Telemetry                   1.5.3          
+   > Microsoft.Testing.Extensions.TrxReport.Abstractions      1.5.3          
+   > Microsoft.Testing.Extensions.VSTestBridge                1.5.3          
+   > Microsoft.Testing.Platform                               1.5.3          
+   > Microsoft.Testing.Platform.MSBuild                       1.5.3          
+   > Microsoft.TestPlatform.ObjectModel                       17.12.0        
+   > Newtonsoft.Json                                          13.0.3         
+   > RazorEngine.NetCore.nixFix                               1.0.1          
+   > SharpZipLib                                              1.4.2          
+   > SixLabors.Fonts                                          1.0.1          
+   > SixLabors.ImageSharp                                     2.1.10         
+   > System.Buffers                                           4.6.0          
+   > System.Collections.Immutable                             5.0.0          
+   > System.Diagnostics.DiagnosticSource                      5.0.0          
+   > System.Drawing.Common                                    8.0.10         
+   > System.Memory                                            4.6.0          
+   > System.Numerics.Vectors                                  4.6.0          
+   > System.Reactive                                          6.0.0          
+   > System.Reflection.Emit                                   4.7.0          
+   > System.Reflection.Metadata                               5.0.0          
+   > System.Runtime.CompilerServices.Unsafe                   6.1.0          
+   > System.Security.AccessControl                            5.0.0          
+   > System.Security.Cryptography.Xml                         8.0.2          
+   > System.Security.Permissions                              5.0.0          
+   > System.Security.Principal.Windows                        5.0.0          
+   > System.Text.Encoding.CodePages                           5.0.0          
+   > System.Text.Encodings.Web                                8.0.0          
+   > System.Text.Json                                         8.0.5          
+   > System.Threading.Tasks.Extensions                        4.5.4          
+   > System.ValueTuple                                        4.5.0          
+   > ZString                                                  2.6.0          
+
+
+2025-07-31 08:38:54.3100|DEBUG|browserstack_sdk.utils|ExtractPackages: Got packages output: 
+Project 'SimpleAppium' has the following package references
+   [net472]: 
+   Top-level Package             Requested   Resolved
+   > Appium.WebDriver            8.0.0       8.0.0   
+   > ExtentReports               5.0.4       5.0.4   
+   > Microsoft.NET.Test.Sdk      17.14.1     17.14.1 
+   > NPOI                        2.7.4       2.7.4   
+   > NUnit                       4.3.2       4.3.2   
+   > NUnit3TestAdapter           5.0.0       5.0.0   
+   > Selenium.WebDriver          4.34.0      4.34.0  
+
+   Transitive Package                                         Resolved       
+   > BouncyCastle.Cryptography                                2.4.0          
+   > Enums.NET                                                5.0.0          
+   > ExtendedNumerics.BigDecimal                              2025.1001.2.129
+   > MathNet.Numerics.Signed                                  5.0.0          
+   > Microsoft.ApplicationInsights                            2.22.0         
+   > Microsoft.AspNetCore.Html.Abstractions                   2.2.0          
+   > Microsoft.AspNetCore.Razor                               2.2.0          
+   > Microsoft.AspNetCore.Razor.Language                      2.2.0          
+   > Microsoft.AspNetCore.Razor.Runtime                       2.2.0          
+   > Microsoft.Bcl.AsyncInterfaces                            8.0.0          
+   > Microsoft.CodeAnalysis.Analyzers                         3.0.0          
+   > Microsoft.CodeAnalysis.Common                            3.9.0          
+   > Microsoft.CodeAnalysis.CSharp                            3.9.0          
+   > Microsoft.CodeCoverage                                   17.14.1        
+   > Microsoft.CSharp                                         4.7.0          
+   > Microsoft.IO.RecyclableMemoryStream                      3.0.1          
+   > Microsoft.Testing.Extensions.Telemetry                   1.5.3          
+   > Microsoft.Testing.Extensions.TrxReport.Abstractions      1.5.3          
+   > Microsoft.Testing.Extensions.VSTestBridge                1.5.3          
+   > Microsoft.Testing.Platform                               1.5.3          
+   > Microsoft.Testing.Platform.MSBuild                       1.5.3          
+   > Microsoft.TestPlatform.ObjectModel                       17.12.0        
+   > Newtonsoft.Json                                          13.0.3         
+   > RazorEngine.NetCore.nixFix                               1.0.1          
+   > SharpZipLib                                              1.4.2          
+   > SixLabors.Fonts                                          1.0.1          
+   > SixLabors.ImageSharp                                     2.1.10         
+   > System.Buffers                                           4.6.0          
+   > System.Collections.Immutable                             5.0.0          
+   > System.Diagnostics.DiagnosticSource                      5.0.0          
+   > System.Drawing.Common                                    8.0.10         
+   > System.Memory                                            4.6.0          
+   > System.Numerics.Vectors                                  4.6.0          
+   > System.Reactive                                          6.0.0          
+   > System.Reflection.Emit                                   4.7.0          
+   > System.Reflection.Metadata                               5.0.0          
+   > System.Runtime.CompilerServices.Unsafe                   6.1.0          
+   > System.Security.AccessControl                            5.0.0          
+   > System.Security.Cryptography.Xml                         8.0.2          
+   > System.Security.Permissions                              5.0.0          
+   > System.Security.Principal.Windows                        5.0.0          
+   > System.Text.Encoding.CodePages                           5.0.0          
+   > System.Text.Encodings.Web                                8.0.0          
+   > System.Text.Json                                         8.0.5          
+   > System.Threading.Tasks.Extensions                        4.5.4          
+   > System.ValueTuple                                        4.5.0          
+   > ZString                                                  2.6.0          
+
+
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-07-31 08:38:54.4382|DEBUG|browserstack_sdk.utils|Executing dotnet  : 0, 
+8.0.400
+
+2025-07-31 08:38:54.4382|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-31 08:38:54.4541|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659

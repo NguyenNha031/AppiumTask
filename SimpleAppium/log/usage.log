@@ -690,3 +690,13 @@ Workload updates are available. Run `dotnet workload list` for more information.
 2025-07-30 19:39:33.6186|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
    at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
    at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659
+2025-07-31 08:38:52.3036|INFO|browserstack_sdk.Program|SDK run started with id: d86207f7-0385-4f25-a36e-619d7e68c122
+2025-07-31 08:38:52.3206|INFO|browserstack_sdk.Program|Running SDK with args: --add-patch-bstack, obj\Debug, D:\ProjectAppium\AppiumTask-main\SimpleAppium\bin\Debug\SimpleAppium.dll, Debug
+2025-07-31 08:38:52.3574|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Detected Selenium version 4.34.0
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Detected Appium version 8.0.0
+2025-07-31 08:38:54.3262|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-07-31 08:38:54.4382|INFO|browserstack_sdk.Program|Detected dotnet version 8.0.400
+2025-07-31 08:38:54.4541|ERROR|browserstack_sdk.Program|Uncaught exception occured: System.Exception: Config file does not exist at any parent directory of . Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+   at browserstack_sdk.YamlParser.parse(String browserStackConfigFilePath, JObject cliArgs, String projectDir) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\ParseYaml.cs:line 770
+   at browserstack_sdk.Program.Main(String[] args) in D:\a\browserstack-csharp-sdk\browserstack-csharp-sdk\run-browserstack\browserstack-sdk\Program.cs:line 659

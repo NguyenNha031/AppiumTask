@@ -3,18 +3,19 @@ using SimpleAppium.Pages;
 using System;
 using AventStack.ExtentReports;
 using SimpleAppium.Common;
+
 namespace SimpleAppium.TestCases
 {
     [TestClass]
     public class RemoveTest : BaseTest
     {
-        [TestMethod]
+        [DataTestMethod]
+        [DataRow("emulator-5556")] 
         public void TestShoppingThenRemove()
         {
             try
             {
                 var loginPage = new LoginPage(driver);
-                test.Log(Status.Info, "✅ App đã mở thành công");
                 test.Log(Status.Info, "📥 Mở form đăng nhập");
                 loginPage.OpenLoginForm();
                 test.Log(Status.Info, "🔐 Thực hiện đăng nhập với user bod@example.com");
@@ -25,9 +26,9 @@ namespace SimpleAppium.TestCases
                 var dashboardPage = new DashboardPage(driver);
                 dashboardPage.Shopping();
                 test.Log(Status.Pass, "✅ thêm giỏ hàng thành công!");
-              
+
                 var cartPage = new CartPage(driver);
-                test.Log(Status.Info, "Tiến hành xóa khỏi giỏ hàng");
+                test.Log(Status.Info, "🗑️ Tiến hành xóa khỏi giỏ hàng");
                 cartPage.RemoveCart();
                 Assert.IsTrue(cartPage.IsRemoveSuccessful(), "❌ Không thể xóa được sản phẩm");
                 test.Log(Status.Pass, "✅ Đã xóa sản phẩm thành công");
@@ -42,6 +43,5 @@ namespace SimpleAppium.TestCases
                 throw;
             }
         }
-
     }
 }

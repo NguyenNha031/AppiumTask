@@ -29,7 +29,6 @@ namespace SimpleAppium.Common
                     }
                 }
             }
-
             return dataList;
         }
     }
